@@ -14,9 +14,9 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 
 ## 📸 Demo
 
-### 📝 Original Sheet
+### 📝 Input Sheet
 
-![Original](original.jpg)
+![Original](Optical-Mark-Recognition-OPENCV-master/asset/original.jpg)
 ![Original2](original2.jpg)
 ![Original3](original3.jpg)
 ![Test Sheet](2choices_no_answers.jpg)
