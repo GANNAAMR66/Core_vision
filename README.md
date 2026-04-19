@@ -1,20 +1,30 @@
 # Core_vision
 OMR Auto Grading System using OpenCV that detects, analyzes, and grades MCQ answer sheets in real-time with high accuracy
-# 🎯 OMR MCQ Auto Grading System with OpenCV
+# OMR MCQ Auto Grading System with OpenCV
 
 ![Demo](demo.mp4)
 
 ---
 
-## 📌 Overview
+##  Features
+
+*  Real-time webcam scanning
+*  Image-based processing
+*  Automatic answer detection
+*  Perspective correction
+*  Pixel-based grading
+*  Score visualization
+
+---
+##  Overview
 
 An intelligent **OMR (Optical Mark Recognition) system** built with Python and OpenCV that automatically detects and grades MCQ answer sheets in real-time using computer vision techniques.
 
 ---
 
-## 📸 Demo
+##  Demo
 
-### 📝 Input Sheet
+### Input Sheet
 
 ![Original](Optical-Mark-Recognition-OPENCV-master/asset/original.jpg)
 ![Original2](original2.jpg)
@@ -23,7 +33,7 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 
 ---
 
-## 🔍 Image Processing Pipeline
+##  Image Processing Pipeline
 
 ### 1️⃣ Grayscale Conversion
 
@@ -43,7 +53,7 @@ Identify the answer sheet using the largest contour.
 
 ---
 
-## 📸 Processing Steps
+##  Processing Steps
 
 ### Grayscale
 
@@ -62,7 +72,7 @@ Identify the answer sheet using the largest contour.
 
 ---
 
-## 📐 Perspective Transformation
+##  Perspective Transformation
 
 The sheet is warped to a top-down view for accurate analysis.
 
@@ -70,24 +80,13 @@ The sheet is warped to a top-down view for accurate analysis.
 
 ---
 
-## ✅ Final Result
+##  Final Result
 
 ![Result](final.jpg)
 
 ---
 
-## 🚀 Features
-
-* 📷 Real-time webcam scanning
-* 🖼️ Image-based processing
-* 🔍 Automatic answer detection
-* 📐 Perspective correction
-* 🧠 Pixel-based grading
-* 📊 Score visualization
-
----
-
-## 🛠️ Technologies Used
+##  requirements Used
 
 * Python
 * OpenCV
@@ -95,13 +94,7 @@ The sheet is warped to a top-down view for accurate analysis.
 
 ---
 
-## ⚙️ How It Works
-
-The system follows a full image processing pipeline: preprocessing → contour detection → perspective transform → pixel analysis → grading.
-
----
-
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 OMR-Auto-Grading-System/
@@ -126,7 +119,7 @@ OMR-Auto-Grading-System/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 pip install opencv-python numpy
@@ -135,16 +128,16 @@ python main.py
 
 ---
 
-## 🎮 Controls
+##  Controls
 
 * Press **'s'** → Save result
 * Press **ESC** → Exit
 
 ---
 
-## 👩‍💻 Team
+##  Team
 
-* **Ganna Amr Emad Eldin** — Team Leader
+* Ganna Amr Emad Eldin — **Team Leader**
 * Habiba Saad Mohamed
 * Haneen Mahmoud Abdel Fattah
 * Rana Basyouni Askar
@@ -153,17 +146,17 @@ python main.py
 
 ---
 
-## ⭐ Acknowledgment
+##  Acknowledgment
 
 This project was developed as part of a Computer Vision and Image Processing course.
 
 ---
 
-## 📌 License
+##  License
 
 For educational purposes only.
 
 ---
 
-⭐ If you like this project, give it a star!
+ If you like this project, give it a star!
 
