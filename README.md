@@ -126,8 +126,8 @@ python main.py
 ---
 ## Academic Supervision
 
-**Instructor:** Dr.Marwa Elsiddek 
-            **Eng/Abdelraouf Hawash**
+**Instructor:* ** Dr.Marwa Elsiddek &
+* **Eng/Abdelraouf Hawash**
 ##  Acknowledgment
 
 This project was developed as part of a Computer Vision and Image Processing course.
