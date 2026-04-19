@@ -2,8 +2,6 @@
 OMR Auto Grading System using OpenCV that detects, analyzes, and grades MCQ answer sheets in real-time with high accuracy
 # OMR MCQ Auto Grading System with OpenCV
 
-![Demo](Optical-Mark-Recognition-OPENCV-master/asset/demo.mp4)
-
 ---
 
 ##  Features
@@ -23,16 +21,13 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 ---
 
 ##  Demo
-
-### Input Sheet
-
 <h3>Input Sheets</h3>
 
 <p align="center">
-  <img src="Optical-Mark-Recognition-OPENCV-master/assets/original.jpg" width="180"/>
-  <img src="Optical-Mark-Recognition-OPENCV-master/assets/original2.jpg" width="180"/>
-  <img src="Optical-Mark-Recognition-OPENCV-master/assets/original3.jpg" width="180"/>
-  <img src="Optical-Mark-Recognition-OPENCV-master/assets/2choices_no_answers.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original2.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original3.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/2choices_no_answers.jpg" width="180"/>
 </p>
 ---
 
