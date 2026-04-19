@@ -24,12 +24,11 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 <h3>Input Sheets</h3>
 
 <p align="center">
-  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original.jpg" width="180"/>
-  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original2.jpg" width="180"/>
-  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original3.jpg" width="180"/>
-  <img src="Optical-Mark-Recognition-OPENCV-master/asset/2choices_no_answers.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original.jpg" width="180" style="margin:10px; border-radius:10px;"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original2.jpg" width="180" style="margin:10px; border-radius:10px;"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original3.jpg" width="180" style="margin:10px; border-radius:10px;"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/2choices_no_answers.jpg" width="180" style="margin:10px; border-radius:10px;"/>
 </p>
----
 
 ##  Image Processing Pipeline
 
@@ -52,7 +51,7 @@ Identify the answer sheet using the largest contour.
 
 ### 4️⃣threshold
 
-Convert the image to black and white to highlight filled bubbles for accurate detection.
+Convert the image to black and white.
 ![threshold](Optical-Mark-Recognition-OPENCV-master/asset/threshold.jpg)
 ---
 
@@ -125,7 +124,10 @@ python main.py
 * Hana Radwan
 ![Team](team.jpg)
 ---
+## Academic Supervision
 
+**Instructor:** Dr.Marwa Elsiddek 
+            **Eng/Abdelraouf Hawash**
 ##  Acknowledgment
 
 This project was developed as part of a Computer Vision and Image Processing course.
