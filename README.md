@@ -51,13 +51,14 @@ Identify the answer sheet using the largest contour.
 ---
 
 ### 4️⃣threshold
+
+Convert the image to black and white to highlight filled bubbles for accurate detection.
 ![threshold](Optical-Mark-Recognition-OPENCV-master/asset/threshold.jpg)
 ---
 
 ## 5️⃣ Perspective Transformation
 
 The sheet is warped to a top-down view for accurate analysis.
-
 ![Warped](Optical-Mark-Recognition-OPENCV-master/asset/wraped.jpg)
 ---
 
