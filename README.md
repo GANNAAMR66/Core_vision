@@ -37,12 +37,13 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 
 Convert image to grayscale for easier processing.
 ![Gray](Optical-Mark-Recognition-OPENCV-master/asset/gray.jpg)
+---
 
 ### 2️⃣ Edge Detection (Canny)
 
 Detect object boundaries in the image.
 ![Edges](Optical-Mark-Recognition-OPENCV-master/asset/Edges.jpg)
-
+---
 ###  3️⃣Contour Detection
 
 Identify the answer sheet using the largest contour.
@@ -51,8 +52,6 @@ Identify the answer sheet using the largest contour.
 
 ### 4️⃣threshold
 ![threshold](Optical-Mark-Recognition-OPENCV-master/asset/threshold.jpg)
-
-
 ---
 
 ## 5️⃣ Perspective Transformation
@@ -60,13 +59,11 @@ Identify the answer sheet using the largest contour.
 The sheet is warped to a top-down view for accurate analysis.
 
 ![Warped](Optical-Mark-Recognition-OPENCV-master/asset/wraped.jpg)
-
 ---
 
 ## 6️⃣ Final Result
 
 ![Result](Optical-Mark-Recognition-OPENCV-master/asset/final.jpg)
-
 ---
 
 ##  requirements Used
@@ -74,7 +71,6 @@ The sheet is warped to a top-down view for accurate analysis.
 * Python
 * OpenCV
 * NumPy
-
 ---
 
 ##  Project Structure
@@ -85,7 +81,7 @@ OMR-Auto-Grading-System/
 │── utlis.py
 │── README.md
 │
-├── assets/
+├── asset/
 │   │── original.jpg
 │   │── original2.jpg
 │   │── original3.jpg
