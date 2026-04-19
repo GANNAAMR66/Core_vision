@@ -26,11 +26,14 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 
 ### Input Sheet
 
-![Original](Optical-Mark-Recognition-OPENCV-master/asset/original.jpg)
-![Original2](Optical-Mark-Recognition-OPENCV-master/asset/original2.jpg)
-![Original3](Optical-Mark-Recognition-OPENCV-master/asset/original3.jpg)
-![Test Sheet](Optical-Mark-Recognition-OPENCV-master/asset/2choices_no_answers.jpg)
+<h3>Input Sheets</h3>
 
+<p align="center">
+  <img src="Optical-Mark-Recognition-OPENCV-master/assets/original.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/assets/original2.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/assets/original3.jpg" width="180"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/assets/2choices_no_answers.jpg" width="180"/>
+</p>
 ---
 
 ##  Image Processing Pipeline
