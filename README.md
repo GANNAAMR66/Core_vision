@@ -2,7 +2,7 @@
 OMR Auto Grading System using OpenCV that detects, analyzes, and grades MCQ answer sheets in real-time with high accuracy
 # OMR MCQ Auto Grading System with OpenCV
 
-![Demo](demo.mp4)
+![Demo](Optical-Mark-Recognition-OPENCV-master/asset/demo.mp4)
 
 ---
 
@@ -27,9 +27,9 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 ### Input Sheet
 
 ![Original](Optical-Mark-Recognition-OPENCV-master/asset/original.jpg)
-![Original2](original2.jpg)
-![Original3](original3.jpg)
-![Test Sheet](2choices_no_answers.jpg)
+![Original2](Optical-Mark-Recognition-OPENCV-master/asset/original2.jpg)
+![Original3](Optical-Mark-Recognition-OPENCV-master/asset/original3.jpg)
+![Test Sheet](Optical-Mark-Recognition-OPENCV-master/asset/2choices_no_answers.jpg)
 
 ---
 
@@ -38,51 +38,36 @@ An intelligent **OMR (Optical Mark Recognition) system** built with Python and O
 ### 1️⃣ Grayscale Conversion
 
 Convert image to grayscale for easier processing.
+![Gray](Optical-Mark-Recognition-OPENCV-master/asset/gray.jpg)
 
-### 2️⃣ Gaussian Blur
-
-Reduce noise for better edge detection.
-
-### 3️⃣ Edge Detection (Canny)
+### 2️⃣ Edge Detection (Canny)
 
 Detect object boundaries in the image.
+![Edges](Optical-Mark-Recognition-OPENCV-master/asset/Edges.jpg)
 
-### 4️⃣ Contour Detection
+###  3️⃣Contour Detection
 
 Identify the answer sheet using the largest contour.
+![Contours](Optical-Mark-Recognition-OPENCV-master/asset/contours.jpg)
+---
+
+### 4️⃣threshold
+![threshold](Optical-Mark-Recognition-OPENCV-master/asset/threshold.jpg)
+
 
 ---
 
-##  Processing Steps
-
-### Grayscale
-
-![Gray](asset/gray.jpg)
-
-### Edge Detection
-
-![Edges](Edges.jpg)
-
-### Contours
-
-![Contours](contours.jpg)
-### threshold
-
-![threshold](threshold.jpg)
-
----
-
-##  Perspective Transformation
+## 5️⃣ Perspective Transformation
 
 The sheet is warped to a top-down view for accurate analysis.
 
-![Warped](wraped.jpg)
+![Warped](Optical-Mark-Recognition-OPENCV-master/asset/wraped.jpg)
 
 ---
 
-##  Final Result
+## 6️⃣ Final Result
 
-![Result](final.jpg)
+![Result](Optical-Mark-Recognition-OPENCV-master/asset/final.jpg)
 
 ---
 
@@ -143,7 +128,7 @@ python main.py
 * Rana Basyouni Askar
 * Maryam Teama
 * Hana Radwan
-
+![Team](team.jpg)
 ---
 
 ##  Acknowledgment
