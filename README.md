@@ -126,7 +126,7 @@ python main.py
 ---
 ## Academic Supervision
 
-**Instructor:** * Dr.Marwa Elsiddek 
+**Instructor:** * Dr.Marwa Elsiddek
 * **Eng/Abdelraouf Hawash**
 ##  Acknowledgment
 
