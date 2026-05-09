@@ -33,24 +33,44 @@ The system employs a sophisticated image processing pipeline:
 9. **Data Export**: Generates comprehensive Excel reports with question-wise analysis
 
 ## Image Processing Pipeline
+<h3>Input Sheets</h3>
+
+<p align="center">
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original.jpg" width="180" style="margin:10px; border-radius:10px;"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original2.jpg" width="180" style="margin:10px; border-radius:10px;"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/original3.jpg" width="180" style="margin:10px; border-radius:10px;"/>
+  <img src="Optical-Mark-Recognition-OPENCV-master/asset/2choices_no_answers.jpg" width="180" style="margin:10px; border-radius:10px;"/>
+</p>
 
 ### Stage 1: Grayscale Conversion
 Transforms the input image from BGR color space to grayscale, simplifying subsequent processing operations while preserving essential structural information.
-
+---
+![Gray](Optical-Mark-Recognition-OPENCV-master/asset/gray.jpg)
+---
 ### Stage 2: Gaussian Blurring
 Applies a 5x5 Gaussian kernel to smooth the image and reduce high-frequency noise, improving the accuracy of edge detection.
 
 ### Stage 3: Canny Edge Detection
 Implements the Canny algorithm with thresholds of 10 and 50 to detect sharp intensity transitions, highlighting the boundaries of the answer sheet and marked regions.
-
+---
+![Edges](Optical-Mark-Recognition-OPENCV-master/asset/Edges.jpg)
+---
 ### Stage 4: Contour Detection
 Identifies all external contours in the edge-detected image and filters them based on area and polygonal approximation to locate the answer sheet boundary.
-
+---
+![Contours](Optical-Mark-Recognition-OPENCV-master/asset/contours.jpg)
+---
 ### Stage 5: Perspective Correction
 Reorders the detected corner points and applies perspective transformation to generate a top-down, undistorted view of the answer sheet with dimensions 700x700 pixels.
+---
+![Warped](Optical-Mark-Recognition-OPENCV-master/asset/wraped.jpg)
+---
 
 ### Stage 6: Thresholding
 Applies binary inverse thresholding with a value of 170 to isolate marked regions, converting them to white pixels against a black background.
+---
+![threshold](Optical-Mark-Recognition-OPENCV-master/asset/threshold.jpg)
+---
 
 ### Stage 7: Grid Extraction
 Splits the thresholded image into a 5x5 grid (5 questions, 5 choices each) using vertical and horizontal splitting operations.
@@ -60,6 +80,9 @@ Counts non-zero pixels in each grid cell and applies a threshold of 5000 pixels 
 
 ### Stage 9: Grading and Visualization
 Compares detected responses with the answer key [B, C, A, B, E], calculates the score, and overlays colored circles indicating correctness.
+---
+![Result](Optical-Mark-Recognition-OPENCV-master/asset/final.jpg)
+---
 
 ## System Requirements
 
@@ -245,7 +268,7 @@ The system includes robust error handling for:
 - Rana Basyouni Askar
 - Maryam Teama
 - Hana Radwan
-
+![Team](team.jpg)
 ## Academic Supervision
 
 **Course Instructor**: Dr. Marwa Elsedik
